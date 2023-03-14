@@ -134,3 +134,7 @@ footer p {
 .social-links li a {
     text-decoration: none;
 }
+
+section p {
+    margin-bottom: 8px;
+}
