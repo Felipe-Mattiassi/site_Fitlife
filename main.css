@@ -129,3 +129,7 @@ h1 {
 footer p {
     color:rgb(230, 236, 241) ;
 }
+
+.social-links li a {
+    text-decoration: none;
+}
