@@ -115,6 +115,7 @@ form button:hover {
 form button {
     background-color: rgb(33, 54, 33);
     color:rgb(230, 236, 241); 
+    border: none;
 }
 
 header {
