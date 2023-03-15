@@ -6,12 +6,13 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    color: rgb(33, 54, 33);
+    color: rgb(75, 54, 54);
+    background-color: rgba(97, 97, 97, 0.253);
 }
 
 header {
     padding: 38px 0;
-    background-color: rgb(33, 54, 33);
+    background-color: rgb(184, 34, 34);
     color:aliceblue
 }
 
@@ -42,6 +43,11 @@ header .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+#about .container img {
+    height: 500px;
+
 }
 
 section .container {
@@ -78,7 +84,7 @@ section {
 }
 
 footer {
-    background-color: rgb(33, 54, 33);
+    background-color: rgb(184, 34, 34);
     padding: 16px 0;
 }
 
@@ -86,7 +92,7 @@ h2,
 h3 {
     margin-bottom: 16px;
     font-weight: normal;
-    font-family: 'Lobster', cursive;
+    font-family: 'Anton', sans-serif;
 }
 
 form textarea {
@@ -105,21 +111,23 @@ form button {
 }
 
 textarea:focus, input:focus {
-    outline-color:rgb(33, 54, 33) ;
+    outline-color: rgb(75, 54, 54); ;
 }
 
 form button:hover {
-    background-color: rgb(66, 100, 66);
+    background-color: rgb(240, 46, 46);
 }
 
 form button {
-    background-color: rgb(33, 54, 33);
+    background-color: rgb(184, 34, 34);
     color:rgb(230, 236, 241); 
     border: none;
+    padding: 14px;
+    
 }
 
 header {
-    font-family: 'Lobster', cursive;
+    font-family: 'Anton', sans-serif;
     font-weight: normal;
 }
 
